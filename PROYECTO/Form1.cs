@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,39 @@ namespace PROYECTO
 {
     public partial class Form1 : Form
     {
+        //parametros de como se  ver 
+        int TamanioColumnasFilas = 4;
+        int Movimientos = 0;
+        int CantidadDeCartasVolteadas = 0;
+        List<string> CartasEnumeradas;
+        List<string> CartasRevueltas;
+        ArrayList CartasSeleccionada;
+        PictureBox CartaTemporal1;
+        PictureBox CartaTemporal2;
+        int CartaActual = 0;
         public Form1()
         {
             InitializeComponent();
         }
+        public void Iniciarjuego()
+        {
+            timer1.Enabled = false;
+            timer1.Stop();
+            lblRecord.Text = "0";
+            CantidadDeCartasVolteadas = 0;
+            Movimientos = 0;
+            paneljuego.Controls.Clear();
+            CartasEnumeradas = new List<string>();
+            CartasRevueltas = new List<string>();
+            CartasSeleccionada = new ArrayList();
+
+        }
+
+        private void cmdReinicio_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
     }
 }
