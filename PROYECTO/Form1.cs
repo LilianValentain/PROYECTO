@@ -23,18 +23,20 @@ namespace PROYECTO
         PictureBox CartaTemporal1;
         PictureBox CartaTemporal2;
         int CartaActual = 0;
+
         public Form1()
         {
             InitializeComponent();
+            iniciarJuego();
         }
-        public void Iniciarjuego()
+
+        public void iniciarJuego()
         {
-            timer1.Enabled = false;
-            timer1.Stop();
             lblRecord.Text = "0";
             CantidadDeCartasVolteadas = 0;
             Movimientos = 0;
-            paneljuego.Controls.Clear();
+            PanelJuego.Controls.Clear();
+
             CartasEnumeradas = new List<string>();
             CartasRevueltas = new List<string>();
             CartasSeleccionada = new ArrayList();
