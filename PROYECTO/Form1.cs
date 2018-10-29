@@ -13,7 +13,12 @@ namespace PROYECTO
 {
     public partial class Form1 : Form
     {
-        //parametros de como se  ver 
+        public int Tamanio_Columnas_Filas { get; set; }
+        public int Movimientos { get; set; }
+        public int Cantidad_de_cartas_volteadas { get; set; }
+
+    
+        //parametros de como se va a ver 
         int TamanioColumnasFilas = 4;
         int Movimientos = 0;
         int CantidadDeCartasVolteadas = 0;
@@ -32,14 +37,14 @@ namespace PROYECTO
 
         public void iniciarJuego()
         {
-            lblRecord.Text = "0";
-            CantidadDeCartasVolteadas = 0;
-            Movimientos = 0;
-            PanelJuego.Controls.Clear();
+            //lblRecord.Text = "0";
+            //CantidadDeCartasVolteadas = 0;
+            //Movimientos = 0;
+            //Panel_1.Controls.Clear();
 
-            CartasEnumeradas = new List<string>();
-            CartasRevueltas = new List<string>();
-            CartasSeleccionada = new ArrayList();
+            //CartasEnumeradas = new List<string>();
+            //CartasRevueltas = new List<string>();
+            //CartasSeleccionada = new ArrayList();
 
         }
 
