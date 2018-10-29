@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>378</x>
+      <y>9</y>
+      <w>189</w>
+      <h>216</h>
+    </coordinates>
+    <panel_attributes>Carta
+--
+-id: Long
+_-ClassAttribute: Long
+Contador
+Jugadas
+Oportunidades
+posicion
+asignar_valor
+--
+#Operation(i: int): int
+RevolverCartas()
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>81</x>
+      <y>54</y>
+      <w>189</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>Cartas_Iguales
+--
+-id: Long
+-Oportunidades: Int
+-Jugadas: Int
+-Contador_ig: Int
+-selección: Int
+
+--
+#Operation(i: int): int
+/+AbstractOperation()/
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>666</x>
+      <y>54</y>
+      <w>189</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>Controles
+--
+-id: Long
+Solo ejecturará acciones
+
+
+--
+
+BloquearControles()
+EncenderControles()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>225</x>
+      <y>324</y>
+      <w>189</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>Incio
+--
+-id: Long
+-Jugadas:Int
+-seleccion :var
+
+--
+#Operation(i: int): int
+/+AbstractOperation()/
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>549</x>
+      <y>324</y>
+      <w>189</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>Tabla
+--
+-id: Long
+Seleccion: 
+Oportunidades: Int
+--
+#Operation(i: int): int
+/+AbstractOperation()/
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
