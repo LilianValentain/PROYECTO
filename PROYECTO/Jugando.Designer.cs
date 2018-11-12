@@ -1,0 +1,227 @@
+﻿namespace PROYECTO
+{
+    partial class Jugando
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pbDOCE = new System.Windows.Forms.PictureBox();
+            this.pbONCE = new System.Windows.Forms.PictureBox();
+            this.pbDIEZ = new System.Windows.Forms.PictureBox();
+            this.pbNUEVE = new System.Windows.Forms.PictureBox();
+            this.pbOCHO = new System.Windows.Forms.PictureBox();
+            this.pbSIETE = new System.Windows.Forms.PictureBox();
+            this.pbSEIS = new System.Windows.Forms.PictureBox();
+            this.pbCINCO = new System.Windows.Forms.PictureBox();
+            this.pbCUATRO = new System.Windows.Forms.PictureBox();
+            this.pbTRES = new System.Windows.Forms.PictureBox();
+            this.pbDOS = new System.Windows.Forms.PictureBox();
+            this.pbUNO = new System.Windows.Forms.PictureBox();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbDOCE)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbONCE)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbDIEZ)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbNUEVE)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbOCHO)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbSIETE)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbSEIS)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCINCO)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCUATRO)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbTRES)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbDOS)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbUNO)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.pbDOCE);
+            this.panel1.Controls.Add(this.pbONCE);
+            this.panel1.Controls.Add(this.pbDIEZ);
+            this.panel1.Controls.Add(this.pbNUEVE);
+            this.panel1.Controls.Add(this.pbOCHO);
+            this.panel1.Controls.Add(this.pbSIETE);
+            this.panel1.Controls.Add(this.pbSEIS);
+            this.panel1.Controls.Add(this.pbCINCO);
+            this.panel1.Controls.Add(this.pbCUATRO);
+            this.panel1.Controls.Add(this.pbTRES);
+            this.panel1.Controls.Add(this.pbDOS);
+            this.panel1.Controls.Add(this.pbUNO);
+            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(588, 320);
+            this.panel1.TabIndex = 1;
+            // 
+            // pbDOCE
+            // 
+            this.pbDOCE.Location = new System.Drawing.Point(441, 215);
+            this.pbDOCE.Name = "pbDOCE";
+            this.pbDOCE.Size = new System.Drawing.Size(140, 100);
+            this.pbDOCE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbDOCE.TabIndex = 11;
+            this.pbDOCE.TabStop = false;
+            // 
+            // pbONCE
+            // 
+            this.pbONCE.Location = new System.Drawing.Point(295, 215);
+            this.pbONCE.Name = "pbONCE";
+            this.pbONCE.Size = new System.Drawing.Size(140, 100);
+            this.pbONCE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbONCE.TabIndex = 10;
+            this.pbONCE.TabStop = false;
+            // 
+            // pbDIEZ
+            // 
+            this.pbDIEZ.Location = new System.Drawing.Point(149, 215);
+            this.pbDIEZ.Name = "pbDIEZ";
+            this.pbDIEZ.Size = new System.Drawing.Size(140, 100);
+            this.pbDIEZ.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbDIEZ.TabIndex = 9;
+            this.pbDIEZ.TabStop = false;
+            // 
+            // pbNUEVE
+            // 
+            this.pbNUEVE.Location = new System.Drawing.Point(3, 215);
+            this.pbNUEVE.Name = "pbNUEVE";
+            this.pbNUEVE.Size = new System.Drawing.Size(140, 100);
+            this.pbNUEVE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbNUEVE.TabIndex = 8;
+            this.pbNUEVE.TabStop = false;
+            // 
+            // pbOCHO
+            // 
+            this.pbOCHO.Location = new System.Drawing.Point(441, 109);
+            this.pbOCHO.Name = "pbOCHO";
+            this.pbOCHO.Size = new System.Drawing.Size(140, 100);
+            this.pbOCHO.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbOCHO.TabIndex = 7;
+            this.pbOCHO.TabStop = false;
+            // 
+            // pbSIETE
+            // 
+            this.pbSIETE.Location = new System.Drawing.Point(295, 109);
+            this.pbSIETE.Name = "pbSIETE";
+            this.pbSIETE.Size = new System.Drawing.Size(140, 100);
+            this.pbSIETE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbSIETE.TabIndex = 6;
+            this.pbSIETE.TabStop = false;
+            // 
+            // pbSEIS
+            // 
+            this.pbSEIS.Location = new System.Drawing.Point(149, 109);
+            this.pbSEIS.Name = "pbSEIS";
+            this.pbSEIS.Size = new System.Drawing.Size(140, 100);
+            this.pbSEIS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbSEIS.TabIndex = 5;
+            this.pbSEIS.TabStop = false;
+            // 
+            // pbCINCO
+            // 
+            this.pbCINCO.Location = new System.Drawing.Point(3, 109);
+            this.pbCINCO.Name = "pbCINCO";
+            this.pbCINCO.Size = new System.Drawing.Size(140, 100);
+            this.pbCINCO.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbCINCO.TabIndex = 4;
+            this.pbCINCO.TabStop = false;
+            // 
+            // pbCUATRO
+            // 
+            this.pbCUATRO.Location = new System.Drawing.Point(441, 3);
+            this.pbCUATRO.Name = "pbCUATRO";
+            this.pbCUATRO.Size = new System.Drawing.Size(140, 100);
+            this.pbCUATRO.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbCUATRO.TabIndex = 3;
+            this.pbCUATRO.TabStop = false;
+            // 
+            // pbTRES
+            // 
+            this.pbTRES.Location = new System.Drawing.Point(295, 3);
+            this.pbTRES.Name = "pbTRES";
+            this.pbTRES.Size = new System.Drawing.Size(140, 100);
+            this.pbTRES.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbTRES.TabIndex = 2;
+            this.pbTRES.TabStop = false;
+            // 
+            // pbDOS
+            // 
+            this.pbDOS.Location = new System.Drawing.Point(149, 3);
+            this.pbDOS.Name = "pbDOS";
+            this.pbDOS.Size = new System.Drawing.Size(140, 100);
+            this.pbDOS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbDOS.TabIndex = 1;
+            this.pbDOS.TabStop = false;
+            // 
+            // pbUNO
+            // 
+            this.pbUNO.Location = new System.Drawing.Point(3, 3);
+            this.pbUNO.Name = "pbUNO";
+            this.pbUNO.Size = new System.Drawing.Size(140, 100);
+            this.pbUNO.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbUNO.TabIndex = 0;
+            this.pbUNO.TabStop = false;
+            // 
+            // Jugando
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(607, 376);
+            this.Controls.Add(this.panel1);
+            this.Name = "Jugando";
+            this.Text = "Jugando";
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbDOCE)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbONCE)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbDIEZ)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbNUEVE)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbOCHO)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbSIETE)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbSEIS)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCINCO)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCUATRO)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbTRES)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbDOS)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbUNO)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pbDOCE;
+        private System.Windows.Forms.PictureBox pbONCE;
+        private System.Windows.Forms.PictureBox pbDIEZ;
+        private System.Windows.Forms.PictureBox pbNUEVE;
+        private System.Windows.Forms.PictureBox pbOCHO;
+        private System.Windows.Forms.PictureBox pbSIETE;
+        private System.Windows.Forms.PictureBox pbSEIS;
+        private System.Windows.Forms.PictureBox pbCINCO;
+        private System.Windows.Forms.PictureBox pbCUATRO;
+        private System.Windows.Forms.PictureBox pbTRES;
+        private System.Windows.Forms.PictureBox pbDOS;
+        private System.Windows.Forms.PictureBox pbUNO;
+    }
+}
