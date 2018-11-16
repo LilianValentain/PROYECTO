@@ -77,6 +77,7 @@
             // 
             // pbDOCE
             // 
+            this.pbDOCE.Image = global::PROYECTO.Properties.Resources.BLANCO_12;
             this.pbDOCE.Location = new System.Drawing.Point(441, 215);
             this.pbDOCE.Name = "pbDOCE";
             this.pbDOCE.Size = new System.Drawing.Size(140, 100);
@@ -86,6 +87,7 @@
             // 
             // pbONCE
             // 
+            this.pbONCE.Image = global::PROYECTO.Properties.Resources.BLANCO_11;
             this.pbONCE.Location = new System.Drawing.Point(295, 215);
             this.pbONCE.Name = "pbONCE";
             this.pbONCE.Size = new System.Drawing.Size(140, 100);
@@ -95,6 +97,7 @@
             // 
             // pbDIEZ
             // 
+            this.pbDIEZ.Image = global::PROYECTO.Properties.Resources.BLANCO_10;
             this.pbDIEZ.Location = new System.Drawing.Point(149, 215);
             this.pbDIEZ.Name = "pbDIEZ";
             this.pbDIEZ.Size = new System.Drawing.Size(140, 100);
@@ -104,6 +107,7 @@
             // 
             // pbNUEVE
             // 
+            this.pbNUEVE.Image = global::PROYECTO.Properties.Resources.BLANCO_09;
             this.pbNUEVE.Location = new System.Drawing.Point(3, 215);
             this.pbNUEVE.Name = "pbNUEVE";
             this.pbNUEVE.Size = new System.Drawing.Size(140, 100);
@@ -113,6 +117,7 @@
             // 
             // pbOCHO
             // 
+            this.pbOCHO.Image = global::PROYECTO.Properties.Resources.BLANCO_08;
             this.pbOCHO.Location = new System.Drawing.Point(441, 109);
             this.pbOCHO.Name = "pbOCHO";
             this.pbOCHO.Size = new System.Drawing.Size(140, 100);
@@ -122,6 +127,7 @@
             // 
             // pbSIETE
             // 
+            this.pbSIETE.Image = global::PROYECTO.Properties.Resources.BLANCO_07;
             this.pbSIETE.Location = new System.Drawing.Point(295, 109);
             this.pbSIETE.Name = "pbSIETE";
             this.pbSIETE.Size = new System.Drawing.Size(140, 100);
@@ -131,6 +137,7 @@
             // 
             // pbSEIS
             // 
+            this.pbSEIS.Image = global::PROYECTO.Properties.Resources.BLANCO_06;
             this.pbSEIS.Location = new System.Drawing.Point(149, 109);
             this.pbSEIS.Name = "pbSEIS";
             this.pbSEIS.Size = new System.Drawing.Size(140, 100);
@@ -140,6 +147,7 @@
             // 
             // pbCINCO
             // 
+            this.pbCINCO.Image = global::PROYECTO.Properties.Resources.BLANCO_05;
             this.pbCINCO.Location = new System.Drawing.Point(3, 109);
             this.pbCINCO.Name = "pbCINCO";
             this.pbCINCO.Size = new System.Drawing.Size(140, 100);
@@ -149,6 +157,7 @@
             // 
             // pbCUATRO
             // 
+            this.pbCUATRO.Image = global::PROYECTO.Properties.Resources.BLANCO_04;
             this.pbCUATRO.Location = new System.Drawing.Point(441, 3);
             this.pbCUATRO.Name = "pbCUATRO";
             this.pbCUATRO.Size = new System.Drawing.Size(140, 100);
@@ -158,6 +167,7 @@
             // 
             // pbTRES
             // 
+            this.pbTRES.Image = global::PROYECTO.Properties.Resources.BLANCO_03;
             this.pbTRES.Location = new System.Drawing.Point(295, 3);
             this.pbTRES.Name = "pbTRES";
             this.pbTRES.Size = new System.Drawing.Size(140, 100);
@@ -167,6 +177,7 @@
             // 
             // pbDOS
             // 
+            this.pbDOS.Image = global::PROYECTO.Properties.Resources.BLANCO_02;
             this.pbDOS.Location = new System.Drawing.Point(149, 3);
             this.pbDOS.Name = "pbDOS";
             this.pbDOS.Size = new System.Drawing.Size(140, 100);
@@ -176,6 +187,7 @@
             // 
             // pbUNO
             // 
+            this.pbUNO.Image = global::PROYECTO.Properties.Resources.BLANCO_01;
             this.pbUNO.Location = new System.Drawing.Point(3, 3);
             this.pbUNO.Name = "pbUNO";
             this.pbUNO.Size = new System.Drawing.Size(140, 100);
@@ -187,7 +199,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(607, 376);
+            this.ClientSize = new System.Drawing.Size(740, 366);
             this.Controls.Add(this.panel1);
             this.Name = "Jugando";
             this.Text = "Jugando";

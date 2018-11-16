@@ -29,5 +29,6 @@ namespace PROYECTO
             pbONCE.Image = Properties.Resources.BLANCO_11;
             pbDOCE.Image = Properties.Resources.BLANCO_12;
         }
+
     }
 }
