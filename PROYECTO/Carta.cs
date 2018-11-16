@@ -19,7 +19,7 @@ namespace PROYECTO
         Bitmap[] posicion = new Bitmap[12];
 
         public void revolver_cartas() 
-        //Reorganiza las posiciones de las imagenes en el array de posiciones
+        
         {
 
             asignadas[0] = 0;
@@ -39,11 +39,6 @@ namespace PROYECTO
             img[4] = PROYECTO.Properties.Resources.ARRIBA_05;
             img[5] = PROYECTO.Properties.Resources.ARRIBA_06;
 
-            /////////////////////////////////////////////
-            /*
-             * asigna las cartas de forma aleatoria
-             * si la posicion ya esta con la imagen del comodin se la salta
-             */
             for (int i = 0; i < 12; i++)
             {
                 if (posicion[i] != img[0])
