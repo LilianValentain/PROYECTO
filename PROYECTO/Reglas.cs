@@ -27,5 +27,12 @@ namespace PROYECTO
         {
             Close();
         }
+
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            linkLabel1.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=Ierxh9kg1UE");
+        }
     }
 }
