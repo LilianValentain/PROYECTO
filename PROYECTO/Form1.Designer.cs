@@ -32,28 +32,14 @@
             this.cmdAyuda = new System.Windows.Forms.Button();
             this.cmdIniciarJuego = new System.Windows.Forms.Button();
             this.imagen_1 = new System.Windows.Forms.PictureBox();
-            this.imagen_2 = new System.Windows.Forms.PictureBox();
-            this.imagen_3 = new System.Windows.Forms.PictureBox();
-            this.imagen_4 = new System.Windows.Forms.PictureBox();
-            this.imagen_7 = new System.Windows.Forms.PictureBox();
-            this.imagen_5 = new System.Windows.Forms.PictureBox();
-            this.imagen_6 = new System.Windows.Forms.PictureBox();
-            this.imagen_9 = new System.Windows.Forms.PictureBox();
-            this.imagen_8 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtNombre = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.imagen_1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imagen_2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imagen_3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imagen_4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imagen_7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imagen_5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imagen_6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imagen_9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imagen_8)).BeginInit();
             this.SuspendLayout();
             // 
             // cmdSalir
             // 
-            this.cmdSalir.Location = new System.Drawing.Point(379, 302);
+            this.cmdSalir.Location = new System.Drawing.Point(399, 242);
             this.cmdSalir.Name = "cmdSalir";
             this.cmdSalir.Size = new System.Drawing.Size(75, 23);
             this.cmdSalir.TabIndex = 6;
@@ -63,7 +49,7 @@
             // 
             // cmdAyuda
             // 
-            this.cmdAyuda.Location = new System.Drawing.Point(379, 262);
+            this.cmdAyuda.Location = new System.Drawing.Point(399, 213);
             this.cmdAyuda.Name = "cmdAyuda";
             this.cmdAyuda.Size = new System.Drawing.Size(75, 23);
             this.cmdAyuda.TabIndex = 5;
@@ -73,7 +59,7 @@
             // 
             // cmdIniciarJuego
             // 
-            this.cmdIniciarJuego.Location = new System.Drawing.Point(379, 233);
+            this.cmdIniciarJuego.Location = new System.Drawing.Point(399, 184);
             this.cmdIniciarJuego.Name = "cmdIniciarJuego";
             this.cmdIniciarJuego.Size = new System.Drawing.Size(75, 23);
             this.cmdIniciarJuego.TabIndex = 4;
@@ -83,111 +69,38 @@
             // 
             // imagen_1
             // 
-            this.imagen_1.BackgroundImage = global::PROYECTO.Properties.Resources.ARRIBA_01;
             this.imagen_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.imagen_1.Location = new System.Drawing.Point(21, 21);
+            this.imagen_1.Image = global::PROYECTO.Properties.Resources.Logo_TecNM_2017;
+            this.imagen_1.Location = new System.Drawing.Point(0, 0);
             this.imagen_1.Name = "imagen_1";
-            this.imagen_1.Size = new System.Drawing.Size(106, 97);
+            this.imagen_1.Size = new System.Drawing.Size(488, 277);
             this.imagen_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imagen_1.TabIndex = 7;
             this.imagen_1.TabStop = false;
             // 
-            // imagen_2
+            // label1
             // 
-            this.imagen_2.BackgroundImage = global::PROYECTO.Properties.Resources.ARRIBA_02;
-            this.imagen_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.imagen_2.Location = new System.Drawing.Point(133, 21);
-            this.imagen_2.Name = "imagen_2";
-            this.imagen_2.Size = new System.Drawing.Size(106, 97);
-            this.imagen_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imagen_2.TabIndex = 8;
-            this.imagen_2.TabStop = false;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(240, 247);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(47, 13);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Nombre:";
             // 
-            // imagen_3
+            // txtNombre
             // 
-            this.imagen_3.BackgroundImage = global::PROYECTO.Properties.Resources.ARRIBA_03;
-            this.imagen_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.imagen_3.Location = new System.Drawing.Point(245, 21);
-            this.imagen_3.Name = "imagen_3";
-            this.imagen_3.Size = new System.Drawing.Size(106, 97);
-            this.imagen_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imagen_3.TabIndex = 9;
-            this.imagen_3.TabStop = false;
-            // 
-            // imagen_4
-            // 
-            this.imagen_4.BackgroundImage = global::PROYECTO.Properties.Resources.ARRIBA_04;
-            this.imagen_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.imagen_4.Location = new System.Drawing.Point(21, 124);
-            this.imagen_4.Name = "imagen_4";
-            this.imagen_4.Size = new System.Drawing.Size(106, 97);
-            this.imagen_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imagen_4.TabIndex = 10;
-            this.imagen_4.TabStop = false;
-            // 
-            // imagen_7
-            // 
-            this.imagen_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.imagen_7.Location = new System.Drawing.Point(21, 228);
-            this.imagen_7.Name = "imagen_7";
-            this.imagen_7.Size = new System.Drawing.Size(106, 97);
-            this.imagen_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imagen_7.TabIndex = 11;
-            this.imagen_7.TabStop = false;
-            // 
-            // imagen_5
-            // 
-            this.imagen_5.BackgroundImage = global::PROYECTO.Properties.Resources.ARRIBA_05;
-            this.imagen_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.imagen_5.Location = new System.Drawing.Point(133, 124);
-            this.imagen_5.Name = "imagen_5";
-            this.imagen_5.Size = new System.Drawing.Size(106, 97);
-            this.imagen_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imagen_5.TabIndex = 12;
-            this.imagen_5.TabStop = false;
-            // 
-            // imagen_6
-            // 
-            this.imagen_6.BackgroundImage = global::PROYECTO.Properties.Resources.ARRIBA_06;
-            this.imagen_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.imagen_6.Location = new System.Drawing.Point(245, 124);
-            this.imagen_6.Name = "imagen_6";
-            this.imagen_6.Size = new System.Drawing.Size(106, 97);
-            this.imagen_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imagen_6.TabIndex = 13;
-            this.imagen_6.TabStop = false;
-            // 
-            // imagen_9
-            // 
-            this.imagen_9.Location = new System.Drawing.Point(245, 227);
-            this.imagen_9.Name = "imagen_9";
-            this.imagen_9.Size = new System.Drawing.Size(106, 97);
-            this.imagen_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imagen_9.TabIndex = 14;
-            this.imagen_9.TabStop = false;
-            // 
-            // imagen_8
-            // 
-            this.imagen_8.Location = new System.Drawing.Point(133, 227);
-            this.imagen_8.Name = "imagen_8";
-            this.imagen_8.Size = new System.Drawing.Size(106, 97);
-            this.imagen_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imagen_8.TabIndex = 15;
-            this.imagen_8.TabStop = false;
+            this.txtNombre.Location = new System.Drawing.Point(293, 244);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(100, 20);
+            this.txtNombre.TabIndex = 9;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(486, 352);
-            this.Controls.Add(this.imagen_8);
-            this.Controls.Add(this.imagen_9);
-            this.Controls.Add(this.imagen_6);
-            this.Controls.Add(this.imagen_5);
-            this.Controls.Add(this.imagen_7);
-            this.Controls.Add(this.imagen_4);
-            this.Controls.Add(this.imagen_3);
-            this.Controls.Add(this.imagen_2);
+            this.ClientSize = new System.Drawing.Size(486, 277);
+            this.Controls.Add(this.txtNombre);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.cmdSalir);
             this.Controls.Add(this.cmdAyuda);
             this.Controls.Add(this.cmdIniciarJuego);
@@ -196,15 +109,8 @@
             this.Text = "Memorama";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.imagen_1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imagen_2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imagen_3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imagen_4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imagen_7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imagen_5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imagen_6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imagen_9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imagen_8)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -216,14 +122,8 @@
         private System.Windows.Forms.Button cmdAyuda;
         private System.Windows.Forms.Button cmdIniciarJuego;
         private System.Windows.Forms.PictureBox imagen_1;
-        private System.Windows.Forms.PictureBox imagen_2;
-        private System.Windows.Forms.PictureBox imagen_3;
-        private System.Windows.Forms.PictureBox imagen_4;
-        private System.Windows.Forms.PictureBox imagen_7;
-        private System.Windows.Forms.PictureBox imagen_5;
-        private System.Windows.Forms.PictureBox imagen_6;
-        private System.Windows.Forms.PictureBox imagen_9;
-        private System.Windows.Forms.PictureBox imagen_8;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtNombre;
     }
 }
 

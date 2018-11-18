@@ -121,14 +121,14 @@
   <data name="ARRIBA_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ARRIBA_04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ARRIBA_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ARRIBA_06.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BLANCO_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BLANCO_09.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BLANCO_011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BLANCO_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BLANCO_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BLANCO_03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BLANCO_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BLANCO_09.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ARRIBA_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ARRIBA_05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,7 +172,10 @@
   <data name="BLANCO_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BLANCO_04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BLANCO_011" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BLANCO_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ARRIBA_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ARRIBA_06.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo-TecNM-2017" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo-TecNM-2017.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

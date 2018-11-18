@@ -41,6 +41,8 @@
             this.pbTRES = new System.Windows.Forms.PictureBox();
             this.pbDOS = new System.Windows.Forms.PictureBox();
             this.pbUNO = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblJugador = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbDOCE)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbONCE)).BeginInit();
@@ -84,6 +86,7 @@
             this.pbDOCE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbDOCE.TabIndex = 11;
             this.pbDOCE.TabStop = false;
+            this.pbDOCE.Click += new System.EventHandler(this.pbDOCE_Click);
             // 
             // pbONCE
             // 
@@ -94,6 +97,7 @@
             this.pbONCE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbONCE.TabIndex = 10;
             this.pbONCE.TabStop = false;
+            this.pbONCE.Click += new System.EventHandler(this.pbONCE_Click);
             // 
             // pbDIEZ
             // 
@@ -104,6 +108,7 @@
             this.pbDIEZ.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbDIEZ.TabIndex = 9;
             this.pbDIEZ.TabStop = false;
+            this.pbDIEZ.Click += new System.EventHandler(this.pbDIEZ_Click);
             // 
             // pbNUEVE
             // 
@@ -114,6 +119,7 @@
             this.pbNUEVE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbNUEVE.TabIndex = 8;
             this.pbNUEVE.TabStop = false;
+            this.pbNUEVE.Click += new System.EventHandler(this.pbNUEVE_Click);
             // 
             // pbOCHO
             // 
@@ -124,6 +130,7 @@
             this.pbOCHO.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbOCHO.TabIndex = 7;
             this.pbOCHO.TabStop = false;
+            this.pbOCHO.Click += new System.EventHandler(this.pbOCHO_Click);
             // 
             // pbSIETE
             // 
@@ -134,6 +141,7 @@
             this.pbSIETE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbSIETE.TabIndex = 6;
             this.pbSIETE.TabStop = false;
+            this.pbSIETE.Click += new System.EventHandler(this.pbSIETE_Click);
             // 
             // pbSEIS
             // 
@@ -144,6 +152,7 @@
             this.pbSEIS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbSEIS.TabIndex = 5;
             this.pbSEIS.TabStop = false;
+            this.pbSEIS.Click += new System.EventHandler(this.pbSEIS_Click);
             // 
             // pbCINCO
             // 
@@ -154,6 +163,7 @@
             this.pbCINCO.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbCINCO.TabIndex = 4;
             this.pbCINCO.TabStop = false;
+            this.pbCINCO.Click += new System.EventHandler(this.pbCINCO_Click);
             // 
             // pbCUATRO
             // 
@@ -164,6 +174,7 @@
             this.pbCUATRO.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbCUATRO.TabIndex = 3;
             this.pbCUATRO.TabStop = false;
+            this.pbCUATRO.Click += new System.EventHandler(this.pbCUATRO_Click);
             // 
             // pbTRES
             // 
@@ -174,6 +185,7 @@
             this.pbTRES.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbTRES.TabIndex = 2;
             this.pbTRES.TabStop = false;
+            this.pbTRES.Click += new System.EventHandler(this.pbTRES_Click);
             // 
             // pbDOS
             // 
@@ -184,6 +196,7 @@
             this.pbDOS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbDOS.TabIndex = 1;
             this.pbDOS.TabStop = false;
+            this.pbDOS.Click += new System.EventHandler(this.pbDOS_Click);
             // 
             // pbUNO
             // 
@@ -194,12 +207,33 @@
             this.pbUNO.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbUNO.TabIndex = 0;
             this.pbUNO.TabStop = false;
+            this.pbUNO.Click += new System.EventHandler(this.pbUNO_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(631, 295);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(75, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Esta Jugando:";
+            // 
+            // lblJugador
+            // 
+            this.lblJugador.AutoSize = true;
+            this.lblJugador.Location = new System.Drawing.Point(646, 319);
+            this.lblJugador.Name = "lblJugador";
+            this.lblJugador.Size = new System.Drawing.Size(45, 13);
+            this.lblJugador.TabIndex = 3;
+            this.lblJugador.Text = "Jugador";
             // 
             // Jugando
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(740, 366);
+            this.Controls.Add(this.lblJugador);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Name = "Jugando";
             this.Text = "Jugando";
@@ -217,6 +251,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbDOS)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbUNO)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -235,5 +270,7 @@
         private System.Windows.Forms.PictureBox pbTRES;
         private System.Windows.Forms.PictureBox pbDOS;
         private System.Windows.Forms.PictureBox pbUNO;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblJugador;
     }
 }

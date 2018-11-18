@@ -20,23 +20,20 @@ namespace PROYECTO
 
         private void cmdIniciarJuego_Click(object sender, EventArgs e)
         {
-            Jugando jugando = new Jugando();
-            //Mostrar ventana secundaria
-           
-
-            jugando.Show();
+            var nombre = "";
+            nombre = txtNombre.Text;
+            if (nombre != "")
+            {
+                Jugando jugando = new Jugando(nombre);
+                //Mostrar ventana secundaria
+                jugando.Show();
+            }
         }
 
         private void cmdAyuda_Click(object sender, EventArgs e)
         {
-            //MessageBox.Show("Reglas del juego.\n1.-Regla");
-            //MessageBox.Show("\n2.- ");
-            //MessageBox.Show("\n3.- ");
-            //MessageBox.Show("\n4.- ");
-            //MessageBox.Show("\n5.- ");
             Reglas reglas = new Reglas();
             reglas.Show();
-
         }
 
         private void cmdSalir_Click(object sender, EventArgs e)
@@ -44,9 +41,6 @@ namespace PROYECTO
             Close();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
+        private void Form1_Load(object sender, EventArgs e){}
     }
 }

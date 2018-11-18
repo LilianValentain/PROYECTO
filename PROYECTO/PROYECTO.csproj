@@ -102,7 +102,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Logo-TecNM-2017.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ARRIBA_01.jpg" />
   </ItemGroup>
