@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMPLib;
 
 namespace PROYECTO
 {
@@ -20,13 +21,17 @@ namespace PROYECTO
 
         private void cmdIniciarJuego_Click(object sender, EventArgs e)
         {
+            WindowsMediaPlayer wplayer = new WindowsMediaPlayer();
+            wplayer.URL = "Properties.Resources.mario.mp3";
+            wplayer.controls.play();
             var nombre = "";
             nombre = txtNombre.Text;
             if (nombre != "")
             {
+
                 Jugando jugando = new Jugando(nombre);
                 //Mostrar ventana secundaria
-                jugando.Show();
+                jugando.ShowDialog();
             }
         }
 

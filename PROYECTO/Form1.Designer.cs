@@ -39,6 +39,7 @@
             // 
             // cmdSalir
             // 
+            this.cmdSalir.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.cmdSalir.Location = new System.Drawing.Point(513, 147);
             this.cmdSalir.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.cmdSalir.Name = "cmdSalir";

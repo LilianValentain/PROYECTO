@@ -259,5 +259,15 @@ namespace PROYECTO.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] mario {
+            get {
+                object obj = ResourceManager.GetObject("mario", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }
