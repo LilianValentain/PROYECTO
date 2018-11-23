@@ -72,17 +72,19 @@
             this.panel1.Controls.Add(this.pbTRES);
             this.panel1.Controls.Add(this.pbDOS);
             this.panel1.Controls.Add(this.pbUNO);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Location = new System.Drawing.Point(12, 13);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(588, 320);
+            this.panel1.Size = new System.Drawing.Size(588, 369);
             this.panel1.TabIndex = 1;
             // 
             // pbDOCE
             // 
             this.pbDOCE.Image = global::PROYECTO.Properties.Resources.BLANCO_12;
-            this.pbDOCE.Location = new System.Drawing.Point(441, 215);
+            this.pbDOCE.Location = new System.Drawing.Point(441, 248);
+            this.pbDOCE.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pbDOCE.Name = "pbDOCE";
-            this.pbDOCE.Size = new System.Drawing.Size(140, 100);
+            this.pbDOCE.Size = new System.Drawing.Size(141, 116);
             this.pbDOCE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbDOCE.TabIndex = 11;
             this.pbDOCE.TabStop = false;
@@ -91,9 +93,10 @@
             // pbONCE
             // 
             this.pbONCE.Image = global::PROYECTO.Properties.Resources.BLANCO_11;
-            this.pbONCE.Location = new System.Drawing.Point(295, 215);
+            this.pbONCE.Location = new System.Drawing.Point(295, 248);
+            this.pbONCE.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pbONCE.Name = "pbONCE";
-            this.pbONCE.Size = new System.Drawing.Size(140, 100);
+            this.pbONCE.Size = new System.Drawing.Size(141, 116);
             this.pbONCE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbONCE.TabIndex = 10;
             this.pbONCE.TabStop = false;
@@ -102,9 +105,10 @@
             // pbDIEZ
             // 
             this.pbDIEZ.Image = global::PROYECTO.Properties.Resources.BLANCO_10;
-            this.pbDIEZ.Location = new System.Drawing.Point(149, 215);
+            this.pbDIEZ.Location = new System.Drawing.Point(149, 248);
+            this.pbDIEZ.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pbDIEZ.Name = "pbDIEZ";
-            this.pbDIEZ.Size = new System.Drawing.Size(140, 100);
+            this.pbDIEZ.Size = new System.Drawing.Size(141, 116);
             this.pbDIEZ.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbDIEZ.TabIndex = 9;
             this.pbDIEZ.TabStop = false;
@@ -113,9 +117,10 @@
             // pbNUEVE
             // 
             this.pbNUEVE.Image = global::PROYECTO.Properties.Resources.BLANCO_09;
-            this.pbNUEVE.Location = new System.Drawing.Point(3, 215);
+            this.pbNUEVE.Location = new System.Drawing.Point(3, 248);
+            this.pbNUEVE.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pbNUEVE.Name = "pbNUEVE";
-            this.pbNUEVE.Size = new System.Drawing.Size(140, 100);
+            this.pbNUEVE.Size = new System.Drawing.Size(141, 116);
             this.pbNUEVE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbNUEVE.TabIndex = 8;
             this.pbNUEVE.TabStop = false;
@@ -124,9 +129,10 @@
             // pbOCHO
             // 
             this.pbOCHO.Image = global::PROYECTO.Properties.Resources.BLANCO_08;
-            this.pbOCHO.Location = new System.Drawing.Point(441, 109);
+            this.pbOCHO.Location = new System.Drawing.Point(441, 126);
+            this.pbOCHO.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pbOCHO.Name = "pbOCHO";
-            this.pbOCHO.Size = new System.Drawing.Size(140, 100);
+            this.pbOCHO.Size = new System.Drawing.Size(141, 116);
             this.pbOCHO.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbOCHO.TabIndex = 7;
             this.pbOCHO.TabStop = false;
@@ -135,9 +141,10 @@
             // pbSIETE
             // 
             this.pbSIETE.Image = global::PROYECTO.Properties.Resources.BLANCO_07;
-            this.pbSIETE.Location = new System.Drawing.Point(295, 109);
+            this.pbSIETE.Location = new System.Drawing.Point(295, 126);
+            this.pbSIETE.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pbSIETE.Name = "pbSIETE";
-            this.pbSIETE.Size = new System.Drawing.Size(140, 100);
+            this.pbSIETE.Size = new System.Drawing.Size(141, 116);
             this.pbSIETE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbSIETE.TabIndex = 6;
             this.pbSIETE.TabStop = false;
@@ -146,9 +153,10 @@
             // pbSEIS
             // 
             this.pbSEIS.Image = global::PROYECTO.Properties.Resources.BLANCO_06;
-            this.pbSEIS.Location = new System.Drawing.Point(149, 109);
+            this.pbSEIS.Location = new System.Drawing.Point(149, 126);
+            this.pbSEIS.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pbSEIS.Name = "pbSEIS";
-            this.pbSEIS.Size = new System.Drawing.Size(140, 100);
+            this.pbSEIS.Size = new System.Drawing.Size(141, 116);
             this.pbSEIS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbSEIS.TabIndex = 5;
             this.pbSEIS.TabStop = false;
@@ -157,9 +165,10 @@
             // pbCINCO
             // 
             this.pbCINCO.Image = global::PROYECTO.Properties.Resources.BLANCO_05;
-            this.pbCINCO.Location = new System.Drawing.Point(3, 109);
+            this.pbCINCO.Location = new System.Drawing.Point(3, 126);
+            this.pbCINCO.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pbCINCO.Name = "pbCINCO";
-            this.pbCINCO.Size = new System.Drawing.Size(140, 100);
+            this.pbCINCO.Size = new System.Drawing.Size(141, 116);
             this.pbCINCO.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbCINCO.TabIndex = 4;
             this.pbCINCO.TabStop = false;
@@ -168,9 +177,10 @@
             // pbCUATRO
             // 
             this.pbCUATRO.Image = global::PROYECTO.Properties.Resources.BLANCO_04;
-            this.pbCUATRO.Location = new System.Drawing.Point(441, 3);
+            this.pbCUATRO.Location = new System.Drawing.Point(441, 4);
+            this.pbCUATRO.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pbCUATRO.Name = "pbCUATRO";
-            this.pbCUATRO.Size = new System.Drawing.Size(140, 100);
+            this.pbCUATRO.Size = new System.Drawing.Size(141, 116);
             this.pbCUATRO.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbCUATRO.TabIndex = 3;
             this.pbCUATRO.TabStop = false;
@@ -179,9 +189,10 @@
             // pbTRES
             // 
             this.pbTRES.Image = global::PROYECTO.Properties.Resources.BLANCO_03;
-            this.pbTRES.Location = new System.Drawing.Point(295, 3);
+            this.pbTRES.Location = new System.Drawing.Point(295, 4);
+            this.pbTRES.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pbTRES.Name = "pbTRES";
-            this.pbTRES.Size = new System.Drawing.Size(140, 100);
+            this.pbTRES.Size = new System.Drawing.Size(141, 116);
             this.pbTRES.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbTRES.TabIndex = 2;
             this.pbTRES.TabStop = false;
@@ -190,9 +201,10 @@
             // pbDOS
             // 
             this.pbDOS.Image = global::PROYECTO.Properties.Resources.BLANCO_02;
-            this.pbDOS.Location = new System.Drawing.Point(149, 3);
+            this.pbDOS.Location = new System.Drawing.Point(149, 4);
+            this.pbDOS.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pbDOS.Name = "pbDOS";
-            this.pbDOS.Size = new System.Drawing.Size(140, 100);
+            this.pbDOS.Size = new System.Drawing.Size(141, 116);
             this.pbDOS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbDOS.TabIndex = 1;
             this.pbDOS.TabStop = false;
@@ -201,9 +213,10 @@
             // pbUNO
             // 
             this.pbUNO.Image = global::PROYECTO.Properties.Resources.BLANCO_01;
-            this.pbUNO.Location = new System.Drawing.Point(3, 3);
+            this.pbUNO.Location = new System.Drawing.Point(3, 4);
+            this.pbUNO.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pbUNO.Name = "pbUNO";
-            this.pbUNO.Size = new System.Drawing.Size(140, 100);
+            this.pbUNO.Size = new System.Drawing.Size(141, 116);
             this.pbUNO.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbUNO.TabIndex = 0;
             this.pbUNO.TabStop = false;
@@ -212,30 +225,35 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(631, 295);
+            this.label1.Location = new System.Drawing.Point(639, 284);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 13);
+            this.label1.Size = new System.Drawing.Size(75, 15);
             this.label1.TabIndex = 2;
             this.label1.Text = "Esta Jugando:";
             // 
             // lblJugador
             // 
             this.lblJugador.AutoSize = true;
-            this.lblJugador.Location = new System.Drawing.Point(646, 319);
+            this.lblJugador.Location = new System.Drawing.Point(639, 344);
             this.lblJugador.Name = "lblJugador";
-            this.lblJugador.Size = new System.Drawing.Size(45, 13);
+            this.lblJugador.Size = new System.Drawing.Size(47, 15);
             this.lblJugador.TabIndex = 3;
             this.lblJugador.Text = "Jugador";
             // 
             // Jugando
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(740, 366);
+            this.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.ClientSize = new System.Drawing.Size(726, 404);
             this.Controls.Add(this.lblJugador);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
+            this.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.Font = new System.Drawing.Font("Antipasto Pro Bold", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Jugando";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Jugando";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbDOCE)).EndInit();

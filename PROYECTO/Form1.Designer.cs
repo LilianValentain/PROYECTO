@@ -39,9 +39,10 @@
             // 
             // cmdSalir
             // 
-            this.cmdSalir.Location = new System.Drawing.Point(399, 242);
+            this.cmdSalir.Location = new System.Drawing.Point(513, 147);
+            this.cmdSalir.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.cmdSalir.Name = "cmdSalir";
-            this.cmdSalir.Size = new System.Drawing.Size(75, 23);
+            this.cmdSalir.Size = new System.Drawing.Size(75, 29);
             this.cmdSalir.TabIndex = 6;
             this.cmdSalir.Text = "Salir";
             this.cmdSalir.UseVisualStyleBackColor = true;
@@ -49,9 +50,10 @@
             // 
             // cmdAyuda
             // 
-            this.cmdAyuda.Location = new System.Drawing.Point(399, 213);
+            this.cmdAyuda.Location = new System.Drawing.Point(513, 99);
+            this.cmdAyuda.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.cmdAyuda.Name = "cmdAyuda";
-            this.cmdAyuda.Size = new System.Drawing.Size(75, 23);
+            this.cmdAyuda.Size = new System.Drawing.Size(75, 29);
             this.cmdAyuda.TabIndex = 5;
             this.cmdAyuda.Text = "Ayuda";
             this.cmdAyuda.UseVisualStyleBackColor = true;
@@ -59,9 +61,10 @@
             // 
             // cmdIniciarJuego
             // 
-            this.cmdIniciarJuego.Location = new System.Drawing.Point(399, 184);
+            this.cmdIniciarJuego.Location = new System.Drawing.Point(513, 50);
+            this.cmdIniciarJuego.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.cmdIniciarJuego.Name = "cmdIniciarJuego";
-            this.cmdIniciarJuego.Size = new System.Drawing.Size(75, 23);
+            this.cmdIniciarJuego.Size = new System.Drawing.Size(75, 47);
             this.cmdIniciarJuego.TabIndex = 4;
             this.cmdIniciarJuego.Text = "Iniciar Juego";
             this.cmdIniciarJuego.UseVisualStyleBackColor = true;
@@ -71,9 +74,10 @@
             // 
             this.imagen_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.imagen_1.Image = global::PROYECTO.Properties.Resources.Logo_TecNM_2017;
-            this.imagen_1.Location = new System.Drawing.Point(0, 0);
+            this.imagen_1.Location = new System.Drawing.Point(11, 7);
+            this.imagen_1.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.imagen_1.Name = "imagen_1";
-            this.imagen_1.Size = new System.Drawing.Size(488, 277);
+            this.imagen_1.Size = new System.Drawing.Size(383, 234);
             this.imagen_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imagen_1.TabIndex = 7;
             this.imagen_1.TabStop = false;
@@ -81,32 +85,41 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(240, 247);
+            this.label1.Location = new System.Drawing.Point(437, 27);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(47, 13);
+            this.label1.Size = new System.Drawing.Size(38, 17);
             this.label1.TabIndex = 8;
             this.label1.Text = "Nombre:";
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(293, 244);
+            this.txtNombre.Location = new System.Drawing.Point(425, 48);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(100, 20);
+            this.txtNombre.Size = new System.Drawing.Size(68, 23);
             this.txtNombre.TabIndex = 9;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(4F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(486, 277);
+            this.BackColor = System.Drawing.Color.Aqua;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ClientSize = new System.Drawing.Size(630, 256);
+            this.ControlBox = false;
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cmdSalir);
             this.Controls.Add(this.cmdAyuda);
             this.Controls.Add(this.cmdIniciarJuego);
             this.Controls.Add(this.imagen_1);
+            this.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.Font = new System.Drawing.Font("Agency FB", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.Name = "Form1";
-            this.Text = "Memorama";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "MEMORAMA TECNM";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.imagen_1)).EndInit();
             this.ResumeLayout(false);
