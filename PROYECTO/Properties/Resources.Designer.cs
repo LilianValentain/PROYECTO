@@ -253,6 +253,16 @@ namespace PROYECTO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gifs_animados_galgos_4655716 {
+            get {
+                object obj = ResourceManager.GetObject("gifs-animados-galgos-4655716", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logo_TecNM_2017 {
             get {
                 object obj = ResourceManager.GetObject("Logo-TecNM-2017", resourceCulture);

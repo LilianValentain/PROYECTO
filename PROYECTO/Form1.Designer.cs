@@ -31,9 +31,9 @@
             this.cmdSalir = new System.Windows.Forms.Button();
             this.cmdAyuda = new System.Windows.Forms.Button();
             this.cmdIniciarJuego = new System.Windows.Forms.Button();
-            this.imagen_1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
+            this.imagen_1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.imagen_1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,18 +71,6 @@
             this.cmdIniciarJuego.UseVisualStyleBackColor = true;
             this.cmdIniciarJuego.Click += new System.EventHandler(this.cmdIniciarJuego_Click);
             // 
-            // imagen_1
-            // 
-            this.imagen_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.imagen_1.Image = global::PROYECTO.Properties.Resources.Logo_TecNM_2017;
-            this.imagen_1.Location = new System.Drawing.Point(11, 7);
-            this.imagen_1.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
-            this.imagen_1.Name = "imagen_1";
-            this.imagen_1.Size = new System.Drawing.Size(383, 234);
-            this.imagen_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imagen_1.TabIndex = 7;
-            this.imagen_1.TabStop = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -100,6 +88,18 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(68, 23);
             this.txtNombre.TabIndex = 9;
+            // 
+            // imagen_1
+            // 
+            this.imagen_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.imagen_1.Image = global::PROYECTO.Properties.Resources.Logo_TecNM_2017;
+            this.imagen_1.Location = new System.Drawing.Point(11, 7);
+            this.imagen_1.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.imagen_1.Name = "imagen_1";
+            this.imagen_1.Size = new System.Drawing.Size(383, 234);
+            this.imagen_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imagen_1.TabIndex = 7;
+            this.imagen_1.TabStop = false;
             // 
             // Form1
             // 
