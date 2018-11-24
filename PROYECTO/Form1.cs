@@ -1,29 +1,41 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+//Libreria para reproducir musica
 using WMPLib;
 
 namespace PROYECTO
 {
     public partial class Form1 : Form
     {
+        WindowsMediaPlayer sonido;
         public Form1()
         {
             InitializeComponent();
+            //si no pasa nada
+            try
+            {
+                //si sonido es igual a nada
+                if (sonido == null)
+                {
+                    //creamos memoria para el objeto
+                    sonido = new WindowsMediaPlayer();
+                    //agregamos el path de donde se encuentra
+                    sonido.URL = Application.StartupPath + @"\mp3\mario.mp3";
+                    //metemos en la config que se repita
+                    sonido.settings.setMode("loop", true);
+                    //lo reproducimos
+                    sonido.controls.play();
+                }
+            }
+            //si sale mal nos dira algo
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex);
+            }
         }
-
+        
         private void cmdIniciarJuego_Click(object sender, EventArgs e)
         {
-            WindowsMediaPlayer wplayer = new WindowsMediaPlayer();
-            wplayer.URL = "Properties.Resources.mario.mp3";
-            wplayer.controls.play();
             var nombre = "";
             nombre = txtNombre.Text;
             if (nombre != "")
