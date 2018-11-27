@@ -115,7 +115,7 @@
             this.Controls.Add(this.cmdAyuda);
             this.Controls.Add(this.cmdIniciarJuego);
             this.Controls.Add(this.imagen_1);
-            this.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Font = new System.Drawing.Font("Agency FB", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.Name = "Form1";

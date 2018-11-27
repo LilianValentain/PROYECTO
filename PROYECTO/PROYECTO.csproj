@@ -46,9 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Carta.cs" />
-    <Compile Include="Cartas_iguales.cs" />
-    <Compile Include="Controles.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,7 +71,6 @@
     <Compile Include="Reglas.Designer.cs">
       <DependentUpon>Reglas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tabla.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -83,7 +79,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reglas.resx">
@@ -103,69 +98,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Logo-TecNM-2017.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ARRIBA_01.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ARRIBA_02.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ARRIBA_03.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ARRIBA_04.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ARRIBA_05.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ARRIBA_06.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BLANCO_01.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BLANCO_02.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BLANCO_03.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BLANCO_04.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BLANCO_05.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BLANCO_06.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BLANCO_07.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BLANCO_08.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BLANCO_09.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BLANCO_10.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BLANCO_11.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BLANCO_12.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Super Mario Bros Theme Song %288 Bit Remix Cover Version%29 - 8 Bit Universe.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\mario.mp3" />
-  </ItemGroup>
-  <ItemGroup>
     <COMReference Include="WMPLib">
       <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
       <VersionMajor>1</VersionMajor>
@@ -176,8 +108,42 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\ambiental.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\biomedica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\electronica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\equis.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\gifs-animados-galgos-4655716.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_default.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\industrial.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo-TecNM-2017.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mecanica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nanotec.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quimica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sistemas.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
