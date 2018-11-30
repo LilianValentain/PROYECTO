@@ -52,12 +52,39 @@ namespace PROYECTO
             Reglas reglas = new Reglas();
             reglas.Show();
         }
-
+        //Confirmacion
         private void cmdSalir_Click(object sender, EventArgs e)
         {
-            Close();
+            try
+            {
+             DialogResult resultado = MessageBox.Show("¿Deseas salir del juego?", "Ventana de salida",
+                 MessageBoxButtons.YesNo);
+
+             if (resultado == DialogResult.Yes)
+             {
+                 Application.Exit();
+             }
+             else
+             {
+
+             }
+              
+            }
+            catch (Exception)
+            {
+                
+                throw;
+            }
+            
+            
+          //  Close();
         }
 
         private void Form1_Load(object sender, EventArgs e){}
+
+        private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

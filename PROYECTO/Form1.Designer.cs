@@ -34,7 +34,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.imagen_1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.imagen_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // cmdSalir
@@ -88,6 +90,7 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(68, 23);
             this.txtNombre.TabIndex = 9;
+            this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             // 
             // imagen_1
             // 
@@ -101,14 +104,25 @@
             this.imagen_1.TabIndex = 7;
             this.imagen_1.TabStop = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::PROYECTO.Properties.Resources.gifs_animados_galgos_4655716;
+            this.pictureBox1.Location = new System.Drawing.Point(400, 182);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(156, 50);
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
+            this.AcceptButton = this.cmdIniciarJuego;
             this.AutoScaleDimensions = new System.Drawing.SizeF(4F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(630, 256);
             this.ControlBox = false;
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cmdSalir);
@@ -123,6 +137,7 @@
             this.Text = "MEMORAMA TECNM";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.imagen_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -138,6 +153,7 @@
         private System.Windows.Forms.PictureBox imagen_1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
