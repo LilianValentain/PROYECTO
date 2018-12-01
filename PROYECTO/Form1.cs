@@ -19,12 +19,13 @@ namespace PROYECTO
                 {
                     //creamos memoria para el objeto
                     sonido = new WindowsMediaPlayer();
-                    //agregamos el path de donde se encuentra
+                    //agregamos la ubicacion de donde se encuentra(path=flujo de archivo :v) si se profe xd
                     sonido.URL = Application.StartupPath + @"\mp3\mario.mp3";
                     //metemos en la config que se repita
                     sonido.settings.setMode("loop", true);
                     //lo reproducimos
                     sonido.controls.play();
+
                 }
             }
             //si sale mal nos dira algo

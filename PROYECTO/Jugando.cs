@@ -458,13 +458,13 @@ namespace PROYECTO
             }
         }
 
-        
-
-     
-        
-
-
-
+        private void cmdAyuda_Click(object sender, EventArgs e)
+        {
+            //instanciamos la forma de las reglas para el boton de ayuda
+            Reglas reglas = new Reglas();
+            //llamamos el metodo de showdialog el cual muestra la ventana o forma hehehe
+            reglas.ShowDialog();
+        }
     }
 
         

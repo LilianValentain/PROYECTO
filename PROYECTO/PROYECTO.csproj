@@ -108,7 +108,9 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ambiental.jpg" />
   </ItemGroup>
@@ -144,6 +146,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\sistemas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\47148353_448922305512290_4335681288158576640_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\851558_1398251817059668_1531159390_n.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
