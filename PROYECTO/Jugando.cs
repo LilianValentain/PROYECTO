@@ -256,7 +256,7 @@ namespace PROYECTO
             }
             else
             {
-                if (seleccionado[0] == null)
+                if (seleccionado[0] == img_2)/////////cambio
                 {
                     seleccionado[0] = img_2;
                     select[0] = posicion[1];
@@ -291,8 +291,8 @@ namespace PROYECTO
                 else
                 {
                     seleccionado[1] = img_3;
+                    select[1] = posicion[2];
                 }
-                select[1] = posicion[2];
                 evaluador();
             }
         }

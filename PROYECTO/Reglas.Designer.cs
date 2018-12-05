@@ -43,6 +43,8 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -99,7 +101,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(29, 225);
+            this.label6.Location = new System.Drawing.Point(29, 222);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(27, 24);
             this.label6.TabIndex = 5;
@@ -118,7 +120,7 @@
             // btnCerrar
             // 
             this.btnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCerrar.Location = new System.Drawing.Point(116, 308);
+            this.btnCerrar.Location = new System.Drawing.Point(121, 342);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(124, 39);
             this.btnCerrar.TabIndex = 7;
@@ -140,9 +142,9 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(62, 186);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(108, 13);
+            this.label9.Size = new System.Drawing.Size(210, 13);
             this.label9.TabIndex = 9;
-            this.label9.Text = "Selecciona otra carta";
+            this.label9.Text = "Selecciona otra carta parecida a la anterior";
             // 
             // label10
             // 
@@ -165,16 +167,16 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(62, 233);
+            this.label12.Location = new System.Drawing.Point(62, 230);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(80, 13);
+            this.label12.Size = new System.Drawing.Size(231, 13);
             this.label12.TabIndex = 12;
-            this.label12.Text = "Ubica los pares";
+            this.label12.Text = "Ubica los pares en el menor numero de intentos";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(62, 275);
+            this.label14.Location = new System.Drawing.Point(62, 321);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(167, 13);
             this.label14.TabIndex = 14;
@@ -183,7 +185,7 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(271, 355);
+            this.linkLabel1.Location = new System.Drawing.Point(271, 390);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(85, 13);
             this.linkLabel1.TabIndex = 15;
@@ -191,12 +193,33 @@
             this.linkLabel1.Text = "Más Información";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(29, 313);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(27, 24);
+            this.label13.TabIndex = 16;
+            this.label13.Text = "7.";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(62, 275);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(233, 13);
+            this.label15.TabIndex = 17;
+            this.label15.Text = "Cuidado de encontrarte con una \"X\" o perderas";
+            // 
             // Reglas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(368, 377);
+            this.ClientSize = new System.Drawing.Size(368, 412);
             this.ControlBox = false;
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label12);
@@ -238,5 +261,7 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label15;
     }
 }
