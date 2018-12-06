@@ -133,9 +133,9 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(62, 65);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(92, 13);
+            this.label8.Size = new System.Drawing.Size(257, 13);
             this.label8.TabIndex = 8;
-            this.label8.Text = "Ingresa tu nombre";
+            this.label8.Text = "Ingresa tu nombre (Solo si estás en el menu principal)";
             // 
             // label9
             // 
@@ -160,9 +160,9 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(62, 107);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(61, 13);
+            this.label11.Size = new System.Drawing.Size(226, 13);
             this.label11.TabIndex = 11;
-            this.label11.Text = "Inicia juego";
+            this.label11.Text = "Inicia juego (Solo si estás en el menu principal)";
             // 
             // label12
             // 
@@ -210,12 +210,13 @@
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(233, 13);
             this.label15.TabIndex = 17;
-            this.label15.Text = "Cuidado de encontrarte con una \"X\" o perderas";
+            this.label15.Text = "Cuidado de encontrarte con una \"X\" o perderás";
             // 
             // Reglas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.PaleGreen;
             this.ClientSize = new System.Drawing.Size(368, 412);
             this.ControlBox = false;
             this.Controls.Add(this.label15);

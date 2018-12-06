@@ -45,6 +45,7 @@
             // 
             this.cmdSalir.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cmdSalir.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.cmdSalir.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.cmdSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdSalir.Location = new System.Drawing.Point(532, 168);
             this.cmdSalir.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
@@ -147,6 +148,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleGreen;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.CancelButton = this.cmdSalir;
             this.ClientSize = new System.Drawing.Size(630, 260);
             this.ControlBox = false;
             this.Controls.Add(this.pictureBox1);
@@ -176,7 +178,7 @@
         #endregion
 
 
-        private System.Windows.Forms.Button button1;
+        //private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button cmdSalir;
         private System.Windows.Forms.Button cmdAyuda;
         private System.Windows.Forms.Button cmdIniciarJuego;

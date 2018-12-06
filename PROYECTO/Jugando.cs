@@ -12,10 +12,20 @@ namespace PROYECTO
 {
     public partial class Jugando : Form
     {
+        //Aquí se crean las variables y los arreglos necesarios para acomodar las imágenes y asignar
+        //las cartas random.
+        //Bitmap: Un mapa de bits es un objeto utilizado
+        //para trabajar con imágenes definidas por datos de píxeles.
+        //Random: Representa un generador de números pseudoaleatorios, que es un dispositivo
+        //que produce una secuencia de números que cumplen ciertos requisitos estadísticos
+        //para la aleatoriedad.
+        //En vez de hacer diferentes clases para los métodos, optamos por crear todos los métodos en 
+        //este apartado.
+
         int contador_igual = 0;
         int elegida = 0;
         int jugadas = 0;
-        int oportunidades = 3;
+        int oportunidades = 4;
         int conta_acertada = 0;
         int[] asignadas = new int[5];
         PictureBox[] seleccionado = new PictureBox[5];
@@ -25,7 +35,7 @@ namespace PROYECTO
        
         Random asignar = new Random();
         Bitmap img_defecto = new Bitmap(PROYECTO.Properties.Resources.img_default);
-        private string nombre;
+      
         
         
         
@@ -40,12 +50,6 @@ namespace PROYECTO
             lblJugador.Text = nombre;
             
         }
-
-       
-
-       
-
-        
 
         public void revolver()
         {
@@ -207,7 +211,7 @@ namespace PROYECTO
             seleccionado[0] = null;
             seleccionado[1] = null;
             contador_igual = 0;
-            oportunidades = 3;
+            oportunidades = 4;
             conta_acertada = 0;
             conta_oportunidades.Text = Convert.ToString(oportunidades);
         }

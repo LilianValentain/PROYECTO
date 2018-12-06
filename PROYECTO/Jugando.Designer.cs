@@ -47,6 +47,8 @@
             this.img_1 = new System.Windows.Forms.PictureBox();
             this.cmdAyuda = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.img_9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_7)).BeginInit();
@@ -57,6 +59,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.img_2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -65,7 +68,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(533, 4);
+            this.label1.Location = new System.Drawing.Point(543, 52);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(125, 20);
             this.label1.TabIndex = 2;
@@ -77,7 +80,7 @@
             this.lblJugador.AutoSize = true;
             this.lblJugador.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblJugador.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblJugador.Location = new System.Drawing.Point(556, 37);
+            this.lblJugador.Location = new System.Drawing.Point(543, 86);
             this.lblJugador.Name = "lblJugador";
             this.lblJugador.Size = new System.Drawing.Size(74, 20);
             this.lblJugador.TabIndex = 3;
@@ -89,7 +92,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(543, 88);
+            this.label2.Location = new System.Drawing.Point(543, 136);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(137, 20);
             this.label2.TabIndex = 13;
@@ -101,7 +104,7 @@
             this.conta_oportunidades.AutoSize = true;
             this.conta_oportunidades.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.conta_oportunidades.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.conta_oportunidades.Location = new System.Drawing.Point(688, 88);
+            this.conta_oportunidades.Location = new System.Drawing.Point(688, 136);
             this.conta_oportunidades.Name = "conta_oportunidades";
             this.conta_oportunidades.Size = new System.Drawing.Size(19, 20);
             this.conta_oportunidades.TabIndex = 14;
@@ -113,7 +116,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(570, 117);
+            this.label4.Location = new System.Drawing.Point(543, 165);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(77, 20);
             this.label4.TabIndex = 15;
@@ -125,7 +128,7 @@
             this.Njugadas.AutoSize = true;
             this.Njugadas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Njugadas.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Njugadas.Location = new System.Drawing.Point(688, 117);
+            this.Njugadas.Location = new System.Drawing.Point(688, 165);
             this.Njugadas.Name = "Njugadas";
             this.Njugadas.Size = new System.Drawing.Size(19, 20);
             this.Njugadas.TabIndex = 16;
@@ -135,7 +138,7 @@
             // 
             this.btnReinciar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnReinciar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReinciar.Location = new System.Drawing.Point(564, 253);
+            this.btnReinciar.Location = new System.Drawing.Point(564, 301);
             this.btnReinciar.Name = "btnReinciar";
             this.btnReinciar.Size = new System.Drawing.Size(94, 27);
             this.btnReinciar.TabIndex = 17;
@@ -146,8 +149,9 @@
             // btnSalir
             // 
             this.btnSalir.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnSalir.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(564, 286);
+            this.btnSalir.Location = new System.Drawing.Point(564, 370);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(94, 28);
             this.btnSalir.TabIndex = 18;
@@ -158,7 +162,7 @@
             // img_9
             // 
             this.img_9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.img_9.Location = new System.Drawing.Point(355, 314);
+            this.img_9.Location = new System.Drawing.Point(355, 362);
             this.img_9.Name = "img_9";
             this.img_9.Size = new System.Drawing.Size(163, 149);
             this.img_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -169,7 +173,7 @@
             // img_8
             // 
             this.img_8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.img_8.Location = new System.Drawing.Point(186, 314);
+            this.img_8.Location = new System.Drawing.Point(186, 362);
             this.img_8.Name = "img_8";
             this.img_8.Size = new System.Drawing.Size(163, 149);
             this.img_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -180,7 +184,7 @@
             // img_7
             // 
             this.img_7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.img_7.Location = new System.Drawing.Point(17, 314);
+            this.img_7.Location = new System.Drawing.Point(17, 362);
             this.img_7.Name = "img_7";
             this.img_7.Size = new System.Drawing.Size(163, 149);
             this.img_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -191,7 +195,7 @@
             // img_6
             // 
             this.img_6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.img_6.Location = new System.Drawing.Point(355, 159);
+            this.img_6.Location = new System.Drawing.Point(355, 207);
             this.img_6.Name = "img_6";
             this.img_6.Size = new System.Drawing.Size(163, 149);
             this.img_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -202,7 +206,7 @@
             // img_5
             // 
             this.img_5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.img_5.Location = new System.Drawing.Point(185, 159);
+            this.img_5.Location = new System.Drawing.Point(185, 207);
             this.img_5.Name = "img_5";
             this.img_5.Size = new System.Drawing.Size(163, 149);
             this.img_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -213,7 +217,7 @@
             // img_4
             // 
             this.img_4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.img_4.Location = new System.Drawing.Point(16, 159);
+            this.img_4.Location = new System.Drawing.Point(16, 207);
             this.img_4.Name = "img_4";
             this.img_4.Size = new System.Drawing.Size(163, 149);
             this.img_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -224,7 +228,7 @@
             // img_3
             // 
             this.img_3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.img_3.Location = new System.Drawing.Point(355, 4);
+            this.img_3.Location = new System.Drawing.Point(355, 52);
             this.img_3.Name = "img_3";
             this.img_3.Size = new System.Drawing.Size(163, 149);
             this.img_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -235,7 +239,7 @@
             // img_2
             // 
             this.img_2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.img_2.Location = new System.Drawing.Point(186, 4);
+            this.img_2.Location = new System.Drawing.Point(186, 52);
             this.img_2.Name = "img_2";
             this.img_2.Size = new System.Drawing.Size(163, 149);
             this.img_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -245,7 +249,7 @@
             // 
             // img_1
             // 
-            this.img_1.Location = new System.Drawing.Point(17, 4);
+            this.img_1.Location = new System.Drawing.Point(17, 53);
             this.img_1.Name = "img_1";
             this.img_1.Size = new System.Drawing.Size(163, 149);
             this.img_1.TabIndex = 4;
@@ -256,11 +260,11 @@
             // 
             this.cmdAyuda.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cmdAyuda.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdAyuda.Location = new System.Drawing.Point(564, 320);
+            this.cmdAyuda.Location = new System.Drawing.Point(564, 334);
             this.cmdAyuda.Name = "cmdAyuda";
             this.cmdAyuda.Size = new System.Drawing.Size(94, 30);
             this.cmdAyuda.TabIndex = 19;
-            this.cmdAyuda.Text = "Reglas";
+            this.cmdAyuda.Text = "&Reglas";
             this.cmdAyuda.UseVisualStyleBackColor = true;
             this.cmdAyuda.Click += new System.EventHandler(this.cmdAyuda_Click);
             // 
@@ -268,12 +272,31 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = global::PROYECTO.Properties.Resources._851558_1398251817059668_1531159390_n;
-            this.pictureBox1.Location = new System.Drawing.Point(585, 176);
+            this.pictureBox1.Location = new System.Drawing.Point(574, 207);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(62, 71);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(223, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(131, 27);
+            this.label3.TabIndex = 21;
+            this.label3.Text = "Memorama";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::PROYECTO.Properties.Resources.gifs_animados_galgos_4655716;
+            this.pictureBox2.Location = new System.Drawing.Point(560, 429);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(174, 69);
+            this.pictureBox2.TabIndex = 22;
+            this.pictureBox2.TabStop = false;
             // 
             // Jugando
             // 
@@ -281,7 +304,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.SeaGreen;
-            this.ClientSize = new System.Drawing.Size(783, 471);
+            this.CancelButton = this.btnSalir;
+            this.ClientSize = new System.Drawing.Size(783, 566);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.cmdAyuda);
             this.Controls.Add(this.btnSalir);
@@ -303,6 +329,7 @@
             this.Controls.Add(this.label1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Jugando";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
@@ -319,6 +346,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.img_2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -345,5 +373,7 @@
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Button cmdAyuda;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
