@@ -161,6 +161,7 @@
             this.img_9.Location = new System.Drawing.Point(355, 314);
             this.img_9.Name = "img_9";
             this.img_9.Size = new System.Drawing.Size(163, 149);
+            this.img_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.img_9.TabIndex = 12;
             this.img_9.TabStop = false;
             this.img_9.Click += new System.EventHandler(this.img_9_Click_1);
@@ -171,6 +172,7 @@
             this.img_8.Location = new System.Drawing.Point(186, 314);
             this.img_8.Name = "img_8";
             this.img_8.Size = new System.Drawing.Size(163, 149);
+            this.img_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.img_8.TabIndex = 11;
             this.img_8.TabStop = false;
             this.img_8.Click += new System.EventHandler(this.img_8_Click_1);
@@ -181,6 +183,7 @@
             this.img_7.Location = new System.Drawing.Point(17, 314);
             this.img_7.Name = "img_7";
             this.img_7.Size = new System.Drawing.Size(163, 149);
+            this.img_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.img_7.TabIndex = 10;
             this.img_7.TabStop = false;
             this.img_7.Click += new System.EventHandler(this.img_7_Click_1);
@@ -191,6 +194,7 @@
             this.img_6.Location = new System.Drawing.Point(355, 159);
             this.img_6.Name = "img_6";
             this.img_6.Size = new System.Drawing.Size(163, 149);
+            this.img_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.img_6.TabIndex = 9;
             this.img_6.TabStop = false;
             this.img_6.Click += new System.EventHandler(this.img_6_Click_1);
@@ -201,6 +205,7 @@
             this.img_5.Location = new System.Drawing.Point(185, 159);
             this.img_5.Name = "img_5";
             this.img_5.Size = new System.Drawing.Size(163, 149);
+            this.img_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.img_5.TabIndex = 8;
             this.img_5.TabStop = false;
             this.img_5.Click += new System.EventHandler(this.img_5_Click_1);
@@ -211,6 +216,7 @@
             this.img_4.Location = new System.Drawing.Point(16, 159);
             this.img_4.Name = "img_4";
             this.img_4.Size = new System.Drawing.Size(163, 149);
+            this.img_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.img_4.TabIndex = 7;
             this.img_4.TabStop = false;
             this.img_4.Click += new System.EventHandler(this.img_4_Click_1);
@@ -221,6 +227,7 @@
             this.img_3.Location = new System.Drawing.Point(355, 4);
             this.img_3.Name = "img_3";
             this.img_3.Size = new System.Drawing.Size(163, 149);
+            this.img_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.img_3.TabIndex = 6;
             this.img_3.TabStop = false;
             this.img_3.Click += new System.EventHandler(this.img_3_Click_1);
@@ -231,13 +238,13 @@
             this.img_2.Location = new System.Drawing.Point(186, 4);
             this.img_2.Name = "img_2";
             this.img_2.Size = new System.Drawing.Size(163, 149);
+            this.img_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.img_2.TabIndex = 5;
             this.img_2.TabStop = false;
             this.img_2.Click += new System.EventHandler(this.img_2_Click_1);
             // 
             // img_1
             // 
-            this.img_1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.img_1.Location = new System.Drawing.Point(17, 4);
             this.img_1.Name = "img_1";
             this.img_1.Size = new System.Drawing.Size(163, 149);

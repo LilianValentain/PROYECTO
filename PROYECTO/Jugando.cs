@@ -160,7 +160,6 @@ namespace PROYECTO
         }
         public void iniciar()
         {
-            
 
             jugadas = 0;
             seleccionado[0] = null;
@@ -188,14 +187,17 @@ namespace PROYECTO
             for (int i = 0; i < posicion.Length; i++)
             {
                 posicion[i] = img_defecto;
+
             }
         }
 
         private void Jugando_Load(object sender, EventArgs e)
         {
+
             iniciar();
             revolver();
         }
+    
         private void btnReinciar_Click(object sender, EventArgs e)
         {
             iniciar();
@@ -213,14 +215,37 @@ namespace PROYECTO
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            Close();
+            try
+            {
+                DialogResult resultado = MessageBox.Show("¿Deseas salir del juego?", "Ventana de salida",
+                    MessageBoxButtons.YesNo);
+
+                if (resultado == DialogResult.Yes)
+                {
+                    Application.Exit();
+                }
+                else
+                {
+
+                }
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+
+            //  Close();
         }
+    
         private void img_1_Click_1(object sender, EventArgs e)
         {
+                  
             img_1.Enabled = false;
             img_1.BackgroundImage = posicion[0];
             img_1.BackgroundImageLayout = ImageLayout.Stretch;
-
 
             if (posicion[0] == img[0])
             {
