@@ -11,28 +11,6 @@ namespace PROYECTO
         public Form1()
         {
             InitializeComponent();
-            //si no pasa nada
-            try
-            {
-                //si sonido es igual a nada
-                if (sonido == null)
-                {
-                    //creamos memoria para el objeto
-                    sonido = new WindowsMediaPlayer();
-                    //agregamos la ubicacion de donde se encuentra(path=flujo de archivo :v) si se profe xd
-                    sonido.URL = Application.StartupPath + @"\mp3\mario.mp3";
-                    //metemos en la config que se repita
-                    sonido.settings.setMode("loop", true);
-                    //lo reproducimos
-                    sonido.controls.play();
-
-                }
-            }
-            //si sale mal nos dira algo
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error: " + ex);
-            }
         }
         
         private void cmdIniciarJuego_Click(object sender, EventArgs e)
@@ -53,7 +31,7 @@ namespace PROYECTO
             Reglas reglas = new Reglas();
             reglas.Show();
         }
-        //Confirmacion
+        
         private void cmdSalir_Click(object sender, EventArgs e)
         {
             try
@@ -81,7 +59,31 @@ namespace PROYECTO
           //  Close();
         }
 
-        private void Form1_Load(object sender, EventArgs e){}
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //si no pasa nada
+            try
+            {
+                //si sonido es igual a nada
+                if (sonido == null)
+                {
+                    //creamos memoria para el objeto
+                    sonido = new WindowsMediaPlayer();
+                    //agregamos la ubicacion de donde se encuentra(path=flujo de archivo :v) si se profe xd
+                    sonido.URL = Application.StartupPath + @"\mp3\mario.mp3";
+                    //metemos en la config que se repita
+                    sonido.settings.setMode("loop", true);
+                    //lo reproducimos
+                    sonido.controls.play();
+
+                }
+            }
+            //si sale mal nos dira algo
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex);
+            }
+        }
 
         private void txtNombre_TextChanged(object sender, EventArgs e)
         {

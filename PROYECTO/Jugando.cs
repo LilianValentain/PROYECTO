@@ -32,12 +32,9 @@ namespace PROYECTO
         Bitmap[] select = new Bitmap[2];
         Bitmap[] img = new Bitmap[5];
         Bitmap[] posicion = new Bitmap[12];
-       
         Random asignar = new Random();
         Bitmap img_defecto = new Bitmap(PROYECTO.Properties.Resources.img_default);
       
-        
-        
         
         public Jugando(string nombre)
         {
@@ -50,7 +47,6 @@ namespace PROYECTO
             lblJugador.Text = nombre;
             
         }
-
         public void revolver()
         {
 
@@ -60,11 +56,11 @@ namespace PROYECTO
             asignadas[3] = 0;
             asignadas[4] = 0;
 
-            img[0] = PROYECTO.Properties.Resources.equis;
-            img[1] = PROYECTO.Properties.Resources.sistemas;
-            img[2] = PROYECTO.Properties.Resources.quimica;
-            img[3] = PROYECTO.Properties.Resources.industrial;
-            img[4] = PROYECTO.Properties.Resources.nanotec;
+            img[0] = Properties.Resources.equis;
+            img[1] = Properties.Resources.sistemas;
+            img[2] = Properties.Resources.quimica;
+            img[3] = Properties.Resources.industrial;
+            img[4] = Properties.Resources.nanotec;
 
             posicion[asignar.Next(8)] = img[0];
 
@@ -110,7 +106,11 @@ namespace PROYECTO
         public void evaluador()
         {
 
-            if (oportunidades == 0) { bloquear(); MessageBox.Show("Perdiste tus oportunidades", "Perdiste", MessageBoxButtons.OK, MessageBoxIcon.Information); }
+            if (oportunidades == 0)
+            {
+                bloquear();
+                MessageBox.Show("Perdiste tus oportunidades", "Perdiste", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
             else
             {
                 this.jugadas = jugadas + 1;
@@ -194,14 +194,12 @@ namespace PROYECTO
 
             }
         }
-
         private void Jugando_Load(object sender, EventArgs e)
         {
 
             iniciar();
             revolver();
         }
-    
         private void btnReinciar_Click(object sender, EventArgs e)
         {
             iniciar();
@@ -215,20 +213,17 @@ namespace PROYECTO
             conta_acertada = 0;
             conta_oportunidades.Text = Convert.ToString(oportunidades);
         }
-
-
         private void btnSalir_Click(object sender, EventArgs e)
         {
             try
             {
-                DialogResult resultado = MessageBox.Show("¿Deseas salir del juego?", "Ventana de salida",
-                    MessageBoxButtons.YesNo);
+                DialogResult resultado = MessageBox.Show("¿Deseas salir del juego?", "Ventana de salida",MessageBoxButtons.YesNo);
 
                 if (resultado == DialogResult.Yes)
                 {
                     Application.Exit();
                 }
-                else
+                else if(resultado == DialogResult.No)
                 {
 
                 }
@@ -243,7 +238,6 @@ namespace PROYECTO
 
             //  Close();
         }
-    
         private void img_1_Click_1(object sender, EventArgs e)
         {
                   
@@ -298,7 +292,6 @@ namespace PROYECTO
                 evaluador();
             }
         }
-
         private void img_3_Click_1(object sender, EventArgs e)
         {
             img_3.Enabled = false;
@@ -351,7 +344,6 @@ namespace PROYECTO
                 evaluador();
             }
         }
-
         private void img_5_Click_1(object sender, EventArgs e)
         {
 
@@ -405,7 +397,6 @@ namespace PROYECTO
                 evaluador();
             }
         }
-
         private void img_7_Click_1(object sender, EventArgs e)
         {
             img_7.Enabled = false;
@@ -458,8 +449,6 @@ namespace PROYECTO
                 evaluador();
             }
         }
-
-
         private void img_9_Click_1(object sender, EventArgs e)
         {
             img_9.Enabled = false;
@@ -486,7 +475,6 @@ namespace PROYECTO
                 evaluador();
             }
         }
-
         private void cmdAyuda_Click(object sender, EventArgs e)
         {
             //instanciamos la forma de las reglas para el boton de ayuda
